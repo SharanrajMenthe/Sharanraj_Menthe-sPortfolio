@@ -409,7 +409,7 @@
     <div class="certs-grid" id="certGrid">
         <!-- Certificate 1: Yuva AI for All -->
         <div class="cert-card" data-cert="yuva">
-            <img class="cert-img" id="img-yuva" alt="Yuva AI for All Certificate" src="YUVA_AI_FOR_ALL.jpeg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=YUVA+AI+For+All+Certificate';">
+            <img class="cert-img" id="img-yuva" alt="Yuva AI for All Certificate" src="YUVA_AI_FOR_ALL.jpg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=YUVA+AI+For+All+Certificate';">
             <div class="cert-details">
                 <div class="cert-title">Yuva AI for All</div>
                 <div class="cert-issuer"><i class="fas fa-building"></i> NASSCOM · IT-ITeS SSC</div>
@@ -419,7 +419,7 @@
         </div>
         <!-- Certificate 2: MATLAB Vanderbilt -->
         <div class="cert-card" data-cert="matlab">
-            <img class="cert-img" id="img-matlab" alt="MATLAB Certificate" src="Matlab.jpeg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=MATLAB+Vanderbilt+Certificate';">
+            <img class="cert-img" id="img-matlab" alt="MATLAB Certificate" src="Matlab.jpg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=MATLAB+Vanderbilt+Certificate';">
             <div class="cert-details">
                 <div class="cert-title">Introduction to Programming with MATLAB</div>
                 <div class="cert-issuer"><i class="fas fa-university"></i> Vanderbilt University</div>
@@ -429,7 +429,7 @@
         </div>
         <!-- Certificate 3: Python Michigan -->
         <div class="cert-card" data-cert="python">
-            <img class="cert-img" id="img-python" alt="Python Certificate" src="Programming_for_everybody_python.jpeg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=Python+Certificate+UMich';">
+            <img class="cert-img" id="img-python" alt="Python Certificate" src="Programming_for_everybody_python.jpg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=Python+Certificate+UMich';">
             <div class="cert-details">
                 <div class="cert-title">Programming for Everybody (Python)</div>
                 <div class="cert-issuer"><i class="fas fa-graduation-cap"></i> University of Michigan · Coursera</div>
@@ -449,7 +449,7 @@
         </div>
         <!-- Certificate 5: ACE Chemistry -->
         <div class="cert-card" data-cert="ace">
-            <img class="cert-img" id="img-ace" alt="ACE Chemistry Certificate" src="ACE_CERITIFICATE.jpeg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=ACE+Chemistry+Prep+Certificate';">
+            <img class="cert-img" id="img-ace" alt="ACE Chemistry Certificate" src="ACE_CERITIFICATE.jpg" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x250/1e3c72/ffffff?text=ACE+Chemistry+Prep+Certificate';">
             <div class="cert-details">
                 <div class="cert-title">Revisiting Chemistry: ACE Preparatory</div>
                 <div class="cert-issuer"><i class="fas fa-leaf"></i> Vishwaprayag University · AS1201</div>
@@ -529,11 +529,11 @@
         // We will reuse the original image source paths from the <img> elements
         function getImageSourceByCertKey(certKey) {
             const mapping = {
-                yuva: document.getElementById('img-yuva')?.src || 'YUVA_AI_FOR_ALL.jpeg',
-                matlab: document.getElementById('img-matlab')?.src || 'Matlab.jpeg',
-                python: document.getElementById('img-python')?.src || 'Programming_for_everybody_python.jpeg',
+                yuva: document.getElementById('img-yuva')?.src || 'YUVA_AI_FOR_ALL.jpg',
+                matlab: document.getElementById('img-matlab')?.src || 'Matlab.jpg',
+                python: document.getElementById('img-python')?.src || 'Programming_for_everybody_python.jpg',
                 cisco: document.getElementById('img-cisco')?.src || 'Cisco_ceritificate.jpg',
-                ace: document.getElementById('img-ace')?.src || 'ACE_CERITIFICATE.jpeg'
+                ace: document.getElementById('img-ace')?.src || 'Cisco_ceritificate.jpg'
             };
             return mapping[certKey] || '';
         }
@@ -641,7 +641,7 @@
         addMiniParticles();
 
         // 7. Provide small console style note
-        console.log("✅ Portfolio ready | All certificates images linked: YUVA_AI_FOR_ALL.jpeg, Matlab.jpeg, Programming_for_everybody_python.jpeg, Cisco_ceritificate.jpg, ACE_CERITIFICATE.jpeg");
+        console.log("✅ Portfolio ready | All certificates images linked: YUVA_AI_FOR_ALL.jpg, Matlab.jpg, Programming_for_everybody_python.jpg, Cisco_ceritificate.jpg, ACE_CERITIFICATE.jpg");
         console.log("💡 If images not showing: ensure the image files are in the same directory as this HTML file with exact names (case-sensitive).");
     })();
 </script>

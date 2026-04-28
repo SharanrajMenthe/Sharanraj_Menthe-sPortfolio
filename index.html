@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sharanraj Menthe | Portfolio</title>
+    <title>Sharanraj Menthe | Cyber Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
@@ -14,85 +13,77 @@
     <div id="particles-js"></div>
 
     <nav class="navbar">
-        <div class="logo">SHARANRAJ<span>.AI</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-        </ul>
+        <div class="logo">SR<span>.AI</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#certs">Showcase</a>
+        </div>
     </nav>
 
-    <section id="home" class="hero">
-        <div class="hero-content" data-aos="zoom-in">
-            <div class="profile-container">
-                <img src="MYSelf.jpeg" alt="Sharanraj" class="profile-img">
+    <header id="home" class="hero">
+        <div class="hero-main" data-aos="zoom-out">
+            <div class="glitch-wrapper">
+                <div class="profile-glow">
+                    <img src="MYSelf.jpeg" alt="Sharanraj" class="main-avatar">
+                </div>
+                <h1 class="glitch" data-text="SHARANRAJ MENTHE">SHARANRAJ MENTHE</h1>
+                <p class="tagline">DEVELOPER | AI RESEARCHER | MATLAB EXPERT</p>
+                <div class="type-box"><span id="typed"></span></div>
             </div>
-            <h1 class="glitch">SHARANRAJ MENTHE</h1>
-            <div class="typing-container">
-                <span class="typing-text"></span>
-            </div>
-            <a href="#achievements" class="cyber-btn">EXPLORE MY JOURNEY</a>
         </div>
-    </section>
+    </header>
 
-    <section id="about" class="about">
-        <div class="glass-card" data-aos="fade-up">
-            <h2>About Me</h2>
-            <p>I am a technology student focused on the intersection of <strong>Modern AI</strong> and engineering. With certifications from <strong>Cisco</strong>, <strong>Nasscom</strong>, and <strong>Vanderbilt</strong>, I specialize in Python programming, MATLAB simulations, and building intelligent web applications.</p>
-        </div>
-    </section>
-
-    <section id="achievements" class="achievements-section">
-        <h2 class="section-title" data-aos="fade-down">Professional Certifications</h2>
-        <div class="achievement-grid">
+    <section id="certs" class="cert-section">
+        <h2 class="section-title">ACHIEVEMENTS</h2>
+        <div class="cert-container">
             
-            <div class="achievement-card" data-aos="flip-up">
-                <div class="img-box">
-                    <img src="YUVA_AI_FOR_ALL.jpeg" alt="Yuva AI Certificate">
-                </div>
-                <div class="card-overlay">
-                    <h3>Yuva AI For All</h3>
-                    <p>Nasscom & IndiaAI</p>
-                </div>
-            </div>
-
-            <div class="achievement-card" data-aos="flip-up" data-aos-delay="100">
-                <div class="img-box">
-                    <img src="Matlab.jpeg" alt="MATLAB Certificate">
-                </div>
-                <div class="card-overlay">
-                    <h3>MATLAB Programming</h3>
-                    <p>Vanderbilt University</p>
+            <div class="glass-card" data-aos="fade-up">
+                <div class="card-inner">
+                    <img src="YUVA_AI_FOR_ALL.jpeg" alt="Yuva AI">
+                    <div class="card-content">
+                        <h3>YUVA AI FOR ALL</h3>
+                        <span>NASSCOM</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="achievement-card" data-aos="flip-up" data-aos-delay="200">
-                <div class="img-box">
-                    <img src="Programming_for_everybody_python.jpeg" alt="Python Certificate">
-                </div>
-                <div class="card-overlay">
-                    <h3>Python Specialist</h3>
-                    <p>University of Michigan</p>
-                </div>
-            </div>
-
-            <div class="achievement-card" data-aos="flip-up" data-aos-delay="300">
-                <div class="img-box">
-                    <img src="Cisco_ceritificate.jpg" alt="Cisco Certificate">
-                </div>
-                <div class="card-overlay">
-                    <h3>Modern AI</h3>
-                    <p>Cisco Networking Academy</p>
+            <div class="glass-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-inner">
+                    <img src="Matlab.jpeg" alt="Matlab">
+                    <div class="card-content">
+                        <h3>MATLAB PROGRAMMING</h3>
+                        <span>VANDERBILT UNIVERSITY</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="achievement-card" data-aos="flip-up" data-aos-delay="400">
-                <div class="img-box">
-                    <img src="ACE_CERITIFICATE.jpeg" alt="ACE Certificate">
+            <div class="glass-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-inner">
+                    <img src="Programming_for_everybody_python.jpeg" alt="Python">
+                    <div class="card-content">
+                        <h3>PYTHON FOR EVERYBODY</h3>
+                        <span>U-MICHIGAN</span>
+                    </div>
                 </div>
-                <div class="card-overlay">
-                    <h3>ACE Milestone</h3>
-                    <p>Academic Excellence</p>
+            </div>
+
+            <div class="glass-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-inner">
+                    <img src="Cisco_ceritificate.jpg" alt="Cisco">
+                    <div class="card-content">
+                        <h3>MODERN AI</h3>
+                        <span>CISCO ACADEMY</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-inner">
+                    <img src="ACE_CERITIFICATE.jpeg" alt="ACE">
+                    <div class="card-content">
+                        <h3>ACE CERTIFICATE</h3>
+                        <span>MIT VPU</span>
+                    </div>
                 </div>
             </div>
 
@@ -100,11 +91,12 @@
     </section>
 
     <footer>
-        <p>&copy; 2026 Sharanraj Menthe | Powered by Innovation</p>
+        <p>TERMINAL v2.0 // SHARANRAJ MENTHE // 2026</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
